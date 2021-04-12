@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-	//"fmt"
+	"github.com/joho/godotenv"
 	"html/template"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
-	"log"
-	"github.com/joho/godotenv"
 	//"encoding/json"
 	//"net/url"
 	"strings"
